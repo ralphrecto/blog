@@ -1,7 +1,7 @@
 <!doctype html>
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>about - ralph j. recto</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -15,25 +15,29 @@
       height: 100%;
     }
 
+    #nav a {
+      color: black;
+    }
+
     #main-container {
       height: inherit;
     }
 
-    p.drop-cap:first-letter {
+    #article p:first-of-type:first-letter {
       font-size: 4.5em;
       float:left;
     margin-right: 0.15em;
     line-height: 1.0;
   }
 
+  #article p {
+    margin-bottom: 0.5em;
+  }
+
   #sidebar {
     text-align: right;
     padding-right: 30px;
     border-right: 3px double gray;
-  }
-
-  p {
-    margin-bottom: 0.5em;
   }
 
   @media (max-width: 767.98px) {
@@ -68,60 +72,66 @@
     }
 
     #nav {
-      padding-top: 30px;
+      padding-top: 20px;
       font-variant: small-caps;
       font-size: 20px;
     }
 
-    .section {
-      margin-top: 40px;
-      font-style: italic;
+    #header {
+      font-size: 24px;
+      font-weight: bold;
+      background: black;
+      color: white;
+      padding: 12px 0 0px 12px;
+      border-bottom: 3px double white;
     }
 
-    #nav a {
-      color: black;
+    #article h5 {
+      font-style: italic;
+      padding-top: 30px;
+    }
+
+    #article {
+      padding-bottom: 40px;
     }
   </style>
 </head>
 
 <body>
   <div id="main-container" class="container-fluid">
-    <div class="row">
+    <div class="row h-100">
       <div class="col-3" id="sidebar">
-        <p style="font-size: 24px; font-style:italic; font-weight: bold;">review: are prisons obsolete?</p>
-        <p style="font-size: 14px;">August 22, 2020</p>
+      <p>
+        <span id="header">ralph j. recto</span>
+        <br>
+        <span>&nbsp;</span>
+        </p>
         <div id="nav">
-          <p><a href="#">about</a></p>
-          <p><a href="#">blog</a></p>
+          <p><a href="/">about</a></p>
+          <p><a href="/blog">blog</a></p>
         </div>
       </div>
       <div class="col-9" id="content">
-
-
-      <p class="drop-cap">
-The first thing you will realize is that the world will go on. This book is <i>Are prisons obsolete?</i>, written by angela davis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus semper interdum. Suspendisse eu mollis leo. Suspendisse malesuada mauris a turpis vulputate, vel mollis purus mattis. Ut mattis ex euismod facilisis facilisis. Pellentesque molestie vulputate risus. Mauris bibendum felis et tempor dictum. Suspendisse congue erat vel quam fermentum, in ultricies nulla mollis.
-Sed sodales erat ut dui fringilla, at vehicula justo ultrices. Integer non bibendum quam. Sed sollicitudin leo nec ipsum posuere sagittis. Donec risus felis, cursus non enim eu, ornare lacinia est. Cras quis hendrerit dui. Morbi ac ultrices diam. Quisque sed ultrices neque. Curabitur hendrerit lorem ac purus pulvinar, quis blandit diam venenatis. Nulla erat ex, tincidunt et nisi sed, congue placerat ex. Pellentesque tempor nibh vel dolor iaculis lobortis. Vestibulum volutpat velit non sapien tempor, ac finibus sem egestas. Vestibulum dapibus, libero eleifend congue malesuada, lacus diam hendrerit libero, non pellentesque justo tellus malesuada nisl. Proin eleifend tortor diam, suscipit tempor felis hendrerit id.
-</p>
-
-<h5 class="section">The state is free at all times, even when it doesn't explicit say so.</h5>
-
-<p>
-Praesent efficitur tincidunt justo dictum feugiat. Aliquam porta orci non pharetra consequat. Fusce id mauris nibh. Donec imperdiet eget velit laoreet rutrum. Aenean eget mi vel lacus feugiat dignissim ac a augue. Integer vehicula turpis at ex tristique, et dignissim tellus ultrices. Proin aliquet nibh metus, vel vehicula ipsum rhoncus id. Donec sed mi risus. Fusce ullamcorper commodo augue, ut porta quam scelerisque non. Quisque sit amet massa quis lectus fermentum elementum in et magna. Praesent purus metus, pharetra et laoreet a, aliquet eu nunc. Fusce ex justo, lacinia a turpis id, ullamcorper feugiat dui. Sed volutpat neque sed enim scelerisque, nec dignissim enim maximus. Aenean tristique volutpat dui non imperdiet.
-</p>
-
+        <div class="row">
+        <p>
+        <span style="font-size: 24px; font-style:italic; font-weight: bold;">about</span>
+        <br>
+        <span style="font-size: 14px;">&nbsp;</span>
+        </p>
+        </div>
+        <div class="row">
+          <div style="padding-top:25px; max-width:700px">
+            <p>Hello. My name is Ralph. I am a software engineer working in New York.</p>
+<p>When I'm not thinking about software, I like to cook and ride my bike around the city. I also like to read, and love getting good recommendations from people.</p>
+<p>You can find me on the following sites:</p>
 <ul>
-<li>list 1</li>
-<li>list 2</li>
-<li>list 3</li>
+<li><a href="https://github.com/ralphrecto">github: ralphrecto</a></li>
+<li><a href="https://twitter.com/ralphjjrecto">twitter: @ralphjjrecto</a></li>
+<li><a href="https://www.linkedin.com/in/ralph-jasper-recto-71146158">linkedin</a></li>
 </ul>
 
-<p>
-Vivamus a cursus elit. Aliquam pellentesque leo eget sapien aliquam eleifend. Sed nec turpis lorem. Quisque rhoncus felis vulputate egestas varius. Ut id eros ligula. Fusce vel ornare risus. Duis mattis lorem ut feugiat venenatis. Sed est felis, venenatis vitae turpis in, molestie imperdiet mauris. Ut eu interdum tellus, posuere scelerisque tortor. Donec imperdiet arcu non semper condimentum. Ut dapibus ex id mauris vestibulum, eget malesuada quam pretium.
-</p>
-
-<p>
-Duis vitae lacus urna. In quis mauris vitae nibh rutrum pharetra. Cras nec ex elementum dolor sagittis efficitur. In malesuada magna aliquet congue varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam congue a nunc id molestie. Etiam enim lectus, dictum sit amet lorem a, suscipit convallis purus. Duis neque tellus, aliquam a tortor vel, malesuada sagittis lacus. Mauris venenatis varius nibh, in efficitur ante bibendum non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tellus mauris, dictum nec mi ac, sagittis tincidunt est. Maecenas ut nunc vestibulum, aliquet risus a, sagittis purus. Quisque semper vestibulum lacus ullamcorper sollicitudin. Vestibulum maximus sagittis varius. Nulla eu sem arcu.
-</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

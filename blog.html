@@ -1,8 +1,17 @@
 ---
-layout: base.liquid
-title: blog posts
+layout: toplevel.liquid
+title: blog
 ---
-{% for post in collections.posts %}
-    <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
-    <em>{{ post.date | date: "%Y-%m-%d" }}</em>
-{% endfor %}
+<table class="table table-borderless table-sm">
+{%- for post in collections.posts reversed -%}
+<tr>
+  <td class="pt-0 pb-2">
+    <small style="padding-right: 20px">{{ post.date | date: "%B %e, %Y" }}</small>
+    </td>
+    <td class="pt-0 pb-2">
+    <h5>
+    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+    </h5>
+    </td>
+{%- endfor -%}
+</table>

@@ -1,7 +1,7 @@
 <!doctype html>
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>{{ title }} - ralph j. recto</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -15,25 +15,29 @@
       height: 100%;
     }
 
+    #nav a {
+      color: black;
+    }
+
     #main-container {
       height: inherit;
     }
 
-    #content p:first-of-type:first-letter {
+    #article p:first-of-type:first-letter {
       font-size: 4.5em;
       float:left;
     margin-right: 0.15em;
     line-height: 1.0;
   }
 
+  #article p {
+    margin-bottom: 0.5em;
+  }
+
   #sidebar {
     text-align: right;
     padding-right: 30px;
     border-right: 3px double gray;
-  }
-
-  p {
-    margin-bottom: 0.5em;
   }
 
   @media (max-width: 767.98px) {
@@ -68,18 +72,27 @@
     }
 
     #nav {
-      padding-top: 30px;
+      padding-top: 20px;
       font-variant: small-caps;
       font-size: 20px;
     }
 
-    .section {
-      margin-top: 40px;
-      font-style: italic;
+    #header {
+      font-size: 24px;
+      font-weight: bold;
+      background: black;
+      color: white;
+      padding: 12px 0 0px 12px;
+      border-bottom: 3px double white;
     }
 
-    #nav a {
-      color: black;
+    #article h5 {
+      font-style: italic;
+      padding-top: 30px;
+    }
+
+    #article {
+      padding-bottom: 40px;
     }
   </style>
 </head>
@@ -88,15 +101,29 @@
   <div id="main-container" class="container-fluid">
     <div class="row h-100">
       <div class="col-3" id="sidebar">
-        <p style="font-size: 24px; font-style:italic; font-weight: bold;">{{ title }}</p>
-        <p style="font-size: 14px;">August 22, 2020</p>
+      <p>
+        <span id="header">ralph j. recto</span>
+        <br>
+        <span>&nbsp;</span>
+        </p>
         <div id="nav">
-          <p><a href="#">about</a></p>
-          <p><a href="#">blog</a></p>
+          <p><a href="/">about</a></p>
+          <p><a href="/blog">blog</a></p>
         </div>
       </div>
       <div class="col-9" id="content">
-      {{ content }}
+        <div class="row">
+        <p>
+        <span style="font-size: 24px; font-style:italic; font-weight: bold;">{{ title }}</span>
+        <br>
+        <span style="font-size: 14px;">{{ date | date: "%B %e, %Y" }}&nbsp;</span>
+        </p>
+        </div>
+        <div class="row">
+          <div style="padding-top:25px; max-width:700px">
+            {{ content }}
+          </div>
+        </div>
       </div>
     </div>
   </div>
