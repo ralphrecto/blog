@@ -2,7 +2,7 @@
 layout: base.liquid
 title: about
 ---
-Hello. My name is Ralph. I am a software engineer working in New York. 
+Hello. My name is Ralph. I am a software engineer working in New York.
 
 When I'm not thinking about software, I like to cook and ride my bike around the city. I also like to read, and love getting good recommendations from people.
 
