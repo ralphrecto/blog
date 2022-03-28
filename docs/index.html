@@ -37,21 +37,6 @@
   #sidebar {
     text-align: right;
     border-right: 3px double gray;
-    padding-top: 1em;
-  }
-
-  @media (max-width: 767.98px) {
-    padding: 20px;
-  }
-
-  @media (max-width: 767.98px) {
-    body {
-    }
-  }
-
-  @media (max-width: 9999px) {
-    body {
-    }
   }
 
   #content {
@@ -66,17 +51,16 @@
       font-size: 1em;
     }
 
-    #nav {
-      padding-top: 20px;
+    #nav p {
       font-variant: small-caps;
-      font-size: 20px;
+      font-size: 1.1em;
     }
 
     #header {
       font-size: 1em;
       font-weight: bold;
-      padding: 12px 0 0px 12px;
-      border-bottom: 3px double white;
+      padding-top: 2em;
+      padding-bottom: 1em;
     }
 
     #article h5 {
@@ -93,13 +77,9 @@
 <body>
   <div id="main-container" class="container-fluid">
     <div class="row h-100">
-      <div class="col-3" id="sidebar">
-      <p>
-        <span id="header">ralph j. recto</span>
-        <br>
-        <span>&nbsp;</span>
-        </p>
-        <div id="nav">
+      <div class="col-3" class="sticky-top" id="sidebar">
+        <div class="sticky-top" id="nav">
+          <h2 id="header">ralph j. recto</h3>
           <p><a href="/">about</a></p>
           <p><a href="/blog">blog</a></p>
         </div>
