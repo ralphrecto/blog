@@ -2,5 +2,6 @@
 module.exports = {
     dir: {
         output: "docs"
-    }
+    },
+    dataTemplateEngine: false
 };
