@@ -1,0 +1,18 @@
+---
+layout: base.liquid
+title: reads 
+---
+<p>
+These are some books that I've read throughout the years.
+The books that are <b>bolded</b> are my favorites, on some axes including how fun, life-altering, or generally engaging they were.
+I've written a few longer-form reviews for some books as well, and the reviews are linked via the title.
+</p>
+{%- for read in collections.books reversed -%}
+  <h3>{{ read.data.title }}</h3>
+  {{ read.templateContent }}
+{%- endfor -%}
+
+{%- for read in collections.short -%}
+  <h3>{{ read.data.title }}</h3>
+  {{ read.templateContent }}
+{%- endfor -%}
