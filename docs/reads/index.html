@@ -13,54 +13,47 @@
 
     body {
       height: 100%;
+      font-family: Georgia, "URW Bookman L", serif;
+      line-height: 1.5;
+      font-size: 14px;
     }
 
     #nav a {
       color: black;
+      padding-right: 10px;
+      text-decoration: underline dotted;
+    }
+
+    #nav a:hover {
+      color: black;
+      padding-right: 10px;
+      text-decoration: underline;
+    }
+
+    #header {
+      margin-bottom: 0;
     }
 
     #main-container {
       height: inherit;
+      margin-top: 20px;
     }
 
     #article p:first-of-type:first-letter {
       font-size: 4.5em;
       float:left;
-    margin-right: 0.15em;
-    line-height: 1.0;
-  }
-
-  #article p {
-    margin-bottom: 0.5em;
-  }
-
-  #sidebar {
-    text-align: right;
-    border-right: 3px double gray;
-  }
-
-  #content {
-    text-align: justify;
-    padding-left: 1em;
-    padding-top: 1em;
-  }
-
-    body {
-      font-family: Georgia, "URW Bookman L", serif;
-      line-height: 1.5;
-      font-size: 1em;
+      margin-right: 0.15em;
+      line-height: 1.0;
     }
 
-    #nav p {
-      font-variant: small-caps;
-      font-size: 1.1em;
+    #article p {
+      margin-bottom: 0.5em;
     }
 
-    #header {
-      font-size: 1em;
-      font-weight: bold;
-      padding-top: 2em;
-      padding-bottom: 1em;
+    #content {
+      text-align: justify;
+      padding-top: 25px;
+      padding-bottom: 5px;
     }
 
     #article h5 {
@@ -76,31 +69,22 @@
 
 <body>
   <div id="main-container" class="container-fluid">
-    <div class="row h-100">
-      <div class="col-3" class="sticky-top" id="sidebar">
-        <div class="sticky-top" id="nav">
-          <h2 id="header">ralph j. recto</h3>
-          <p><a href="/">about</a></p>
-          <p><a href="/blog">blog</a></p>
-          <p><a href="/projects">projects</a></p>
-          <p><a href="/reads">reads</a></p>
-        </div>
+    <div class="col-10">
+      <div id="nav">
+        <h5>ralph j. recto</h5>
+        <span><a href="/">about</a></span>
+        <span><a href="/blog">blog</a></span>
+        <span><a href="/projects">projects</a></span>
+        <span><a href="/reads">reads</a></span>
       </div>
-      <div class="col-9" id="content">
-        <div class="row">
-        <p>
-        <br>
-        </p>
-        </div>
-        <div class="row">
-          <div style="max-width: 1024px;padding-right:1em; padding-left: 1em;">
-          <!--<span style="font-size: 24px; font-style:italic; font-weight: bold;">reads</span> -->
-          <h1>reads</h1>
-          <span style="font-size: 14px;">&nbsp;</span>
+      <div id="content">
+        <h3>reads</h3>
+        <div>
+          
             <p>
 These are some books that I've read throughout the years.
 The books that are <b>bolded</b> are my favorites, on some axes including how fun, life-altering, or generally engaging they were.
-I've written a few longer-form reviews for some of them, and the reviews are linked via the title.
+I've written a few longer-form reviews for some books as well, and the reviews are linked via the title.
 </p><h3>2022</h3>
   <ul>
 <li><em>Seeing Like a State</em>, James C. Scott</li>
@@ -178,7 +162,6 @@ I've written a few longer-form reviews for some of them, and the reviews are lin
 </li>
 </ul>
 
-          </div>
         </div>
       </div>
     </div>
