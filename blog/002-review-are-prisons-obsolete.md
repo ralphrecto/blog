@@ -1,6 +1,5 @@
 ---
 title: "Book review: \"Are Prisons Obsolete?\""
-date: 2020-07-08
 ---
 This book had been on my shelf for a while, but I was inspired to actually pick it up in the midst of the George Floyd protests in the middle of the tumultuous summer of 2020. This was when calls to defund the police were gaining steam. Prison abolition isn't exactly that, but it's adjacent, and was also present in some pockets of the discourse at the time. This is more of a summary of the main arguments made in the book in support of its provocative question, and some of my reactions to those arguments.
 

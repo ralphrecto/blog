@@ -1,6 +1,5 @@
 ---
 title: "Book review: \"Severance\""
-date: 2019-12-08
 ---
 I generally enjoyed this book. It detailed the absurdity and critiqued capitalism while being understated in its doing so - if you are not reading too closely, the writing as it wouldn't necessarily register as a criticism of the system, but just a reflection of how things are. But the symbols and moments are there: Shen Fever arises out of manufacturing in Shenzen; people are defined by their consumption of commodities; the Bible, fully commodified by the narrator; dangerous working conditions in manufacturing, etc.
 
