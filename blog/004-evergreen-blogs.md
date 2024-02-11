@@ -1,0 +1,6 @@
+---
+title: Evergreen blogs
+---
+You have probably noticed that the posts in this section are under the 'blog' heading, yet there are no dates attached to any of them. This is probably a bit of a departure from what you usually expect from a blog. How would you know if what you're reading is ten years old or ten days old? The age of a post is a reasonable proxy for things you care about as a reader, like relevancy. React blog from 2023 versus React blog from 2016 are pretty different things.
+
+I've tried to commit to keeping some sort of blog at various points in my life, but I always end up wanting to edit posts I've made before or even just take them down entirely, which feels counter to the idea of a blog, or at least counter to having a date stamped on the post. As an experiment, I've decided to lean into this predisposition for revising and just remove all dates entirely. Everything that's still on here is a snapshot of things I still feel okay keeping up, at least as of the last time I had bothered to touch my website's content. Inspired by [evergreen notes](https://notes.andymatuschak.org/Evergreen_notes), I'm going to call these evergreen blogs. I'll keep a counter on the posts still (see url), but instead of a real clock, you will only get a logical clock. Hopefully that's enough to keep you from getting disoriented.
